@@ -51,7 +51,7 @@ const TextAnimation: React.FC<TextAnimationProps> = ({ text }) => {
     ));
 
   return (
-    <p ref={paragraphRef} className="text-xl text-gray-200 leading-relaxed">
+    <p ref={paragraphRef} className="text-xlleading-relaxed">
       {splitTextIntoWords(text)}
     </p>
   );

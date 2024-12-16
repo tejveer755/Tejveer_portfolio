@@ -33,16 +33,16 @@ const App: React.FC = () => {
     { name: "Node.js", icon: <FaNode color="#68A063" /> },
   ];
   return (
-    <main className='relative bg-gradient-to-t from-zinc-900 to-zinc-950  min-w-full min-h-fit h-[100vh] cursor-none z-10'>
+    <main className='relative bg-gradient-to-t from-zinc-50 dark:from-zinc-900 to-zinc-50 dark:to-zinc-950   min-w-full min-h-fit h-[100vh] cursor-none z-10'>
       <CustomCursor />
       <Navbar />
-      <AuroraBackground className={"bg-transparent items-start pl-10 md:pl-20"}>
+      <AuroraBackground className={"bg-transparent dark:bg-transparent items-start pl-10 md:pl-20"}>
         <HeraSection />
       </AuroraBackground>
 
       <AboutPage />
       <div className='my-20'>
-        <VelocityScroll techStacks={techStacks} default_velocity={1} className="font-display text-center text-3xl font-bold tracking-[-0.02em] text-neutral-200 md:text-4xl md:leading-[5rem] " />
+        <VelocityScroll techStacks={techStacks} default_velocity={1} className="font-display text-center text-3xl font-bold tracking-[-0.02em] text-neutral-950 dark:text-neutral-200 md:text-4xl md:leading-[5rem] " />
       </div>
       <Projects />
       <div id='connect'>

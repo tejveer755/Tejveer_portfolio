@@ -20,7 +20,7 @@ const AboutPage: React.FC = () => {
       title: "2024",
       content: (
         <div>
-          <p className="text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-6">
+          <p className= "text-zinc-900 dark:text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-6">
             Built and launched a Social Networking Website with NodeJS.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -52,7 +52,7 @@ const AboutPage: React.FC = () => {
       title: "Early 2023",
       content: (
         <div>
-          <p className="text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-4">
+          <p className= "text-zinc-900 dark:text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-4">
           Build a interactive quiz game with multiple-choice questions and country Info Website. Built using React.js, JavaScript , API, and CSS.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -84,11 +84,11 @@ const AboutPage: React.FC = () => {
       title: "Changelog",
       content: (
         <div>
-          <p className="text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-4">
+          <p className= "text-zinc-900 dark:text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-4">
             Build These projects that helped me to get better understanding of how things work in web development
           </p>
           <div className="mb-6">
-            <ul className="list-disc list-inside text-neutral-300 text-xs sm:text-sm md:text-base">
+            <ul className="list-disc list-inside  text-zinc-900 dark:text-neutral-300 text-xs sm:text-sm md:text-base">
               <li>Tenzie Game</li>
               <li>Task Management app</li>
               <li>threejs cyberpunk landing page</li>
@@ -124,10 +124,10 @@ const AboutPage: React.FC = () => {
   ];
 
   return (
-    <div className="flex cursor-none pt-24 sm:pt-32 flex-col items-center justify-center w-full min-h-screen mx-auto text-white overflow-hidden relative">
+    <div className="flex cursor-none pt-24 sm:pt-32 flex-col items-center justify-center w-full min-h-screen mx-auto  text-zinc-900 dark:text-white overflow-hidden relative">
       {/* Watermark Heading */}
       <h2
-        className="absolute -top-7 md:top-60 lg:-left-16  text-center m-0 text-nowrap md:-rotate-90 text-[5rem] sm:text-[7rem] font-bold text-neutral-100 opacity-60 select-none pointer-events-none z-0"
+        className="absolute -top-7 md:top-60 lg:-left-16  text-center m-0 text-nowrap md:-rotate-90 text-[5rem] sm:text-[7rem] font-bold  text-zinc-900 dark:text-neutral-100 opacity-60 select-none pointer-events-none z-0"
         style={{
           textShadow:
             "rgb(33 30 30 / 50%) -3px 7px 4px, rgb(147 141 141 / 30%) 0px 6px 0px",
@@ -140,10 +140,10 @@ const AboutPage: React.FC = () => {
         <div className="max-w-4xl gap-12 items-center relative">
           {/* Bio Section */}
           <div className="space-y-6">
-            <h3 className="text-2xl sm:text-3xl font-semibold mb-4 text-white">
+            <h3 className="text-2xl sm:text-3xl font-semibold mb-4  text-zinc-900 dark:text-white">
               Who I Am
             </h3>
-            <p className="text-sm sm:text-base lg:text-xl text-gray-200 leading-relaxed">
+            <p className="text-sm sm:text-base lg:text-xl  text-zinc-900 dark:text-gray-200 leading-relaxed">
               <TextAnimation
                 text={
                   "An 19-year-old web Developer based in Delhi, India. Currently, I'm pursuing a Bachelor's in Compute Applications from the Institute of Information Technology, where I’m diving deep into the world of technology and software development."
