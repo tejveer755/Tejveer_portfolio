@@ -14,7 +14,7 @@ export function Connect() {
       <div className="flex flex-wrap items-start justify-between gap-6">
         {/* Form Section */}
         <form
-          action="https://formsubmit.co/tejveersingh.75575@gmail.com"
+          action="https://formsubmit.co/186801c2217b09b16ddf034f1de8e56e"
           method="POST"
           className="bg-gray-100 dark:bg-zinc-800 p-6 rounded-lg shadow-md w-[95%] md:w-[80%] "
         >
