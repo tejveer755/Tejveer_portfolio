@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { BookUser, CalendarIcon, HomeIcon, MailIcon, PencilIcon } from "lucide-react";
+import { BookUser, CalendarIcon, HomeIcon, MailIcon, } from "lucide-react";
 import { cn } from "../lib/utils";
 import { buttonVariants } from "../components/ui/button";
 import { Separator } from "../components/ui/separator";
@@ -22,7 +22,7 @@ export type IconProps = React.HTMLAttributes<SVGElement>;
 const Icons = {
     calendar: (props: IconProps) => <CalendarIcon {...props} />,
     email: (props: IconProps) => <MailIcon {...props} />,
-    aedin: (props: IconProps) => (
+    aedin: () => (
        <FaLinkedin/>
     ),
     github: () => (

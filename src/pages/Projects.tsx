@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { HeroParallax } from "../components/ui/hero-parallax";
 import swn_1 from '../assets/swn_1.png'
 import swn_2 from '../assets/swn_2.png'

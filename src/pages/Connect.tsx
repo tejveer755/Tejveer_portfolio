@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { HoverEffect } from "../components/ui/card-hover-effect";
 
 export function Connect() {

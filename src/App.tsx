@@ -5,8 +5,8 @@ import CustomCursor from './components/CustomCursor'
 import AboutPage from './pages/AboutPage';
 import { Navbar } from './components/Navbar';
 import { VelocityScroll } from './components/ui/scroll-based-velocity';
-import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaNode, FaSass, FaDocker, FaGit, FaGithub} from "react-icons/fa";
-import { SiNextdotjs, SiGraphql, SiTailwindcss, SiRedis, SiFigma } from "react-icons/si";
+import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaNode, FaSass, FaGithub} from "react-icons/fa";
+import { SiNextdotjs,  SiTailwindcss, SiFigma } from "react-icons/si";
 import { Projects } from './pages/Projects';
 import { Connect } from './pages/Connect';
 
