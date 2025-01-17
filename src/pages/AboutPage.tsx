@@ -17,7 +17,7 @@ import cyberpunklp from '../assets/cyberpunk.png'
 const AboutPage: React.FC = () => {
   const data = [
     {
-      title: "2024",
+      title: "December 2024",
       content: (
         <div>
           <p className= "text-zinc-900 dark:text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-6">
@@ -49,7 +49,7 @@ const AboutPage: React.FC = () => {
       ),
     },
     {
-      title: "Early 2023",
+      title: "mid 2024",
       content: (
         <div>
           <p className= "text-zinc-900 dark:text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-4">
@@ -81,7 +81,7 @@ const AboutPage: React.FC = () => {
       ),
     },
     {
-      title: "Changelog",
+      title: "early 2024",
       content: (
         <div>
           <p className= "text-zinc-900 dark:text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-4">
@@ -146,7 +146,7 @@ const AboutPage: React.FC = () => {
             <p className="text-sm sm:text-base lg:text-xl  text-zinc-900 dark:text-gray-200 leading-relaxed">
               <TextAnimation
                 text={
-                  "An 19-year-old web Developer based in Delhi, India. Currently, I'm pursuing a Bachelor's in Compute Applications from the Institute of Information Technology, where I’m diving deep into the world of technology and software development."
+                  "I am a 19-year-old web developer based in Delhi, India, with a strong foundation in creating modern, user-focused websites and applications. I am currently pursuing a Bachelor’s degree in Computer Applications at the Institute of Information Technology, where I am deepening my expertise in software development, programming, and emerging technologies."
                 }
               />
             </p>

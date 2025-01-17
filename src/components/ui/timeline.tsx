@@ -40,7 +40,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       <div className="max-w-7xl flex flex-col items-end mx-auto  px-4 md:px-8 lg:px-10">
 
         <p className="text-xl text-gray-900 dark:text-gray-200 leading-relaxed max-w-xl text-right">
-          <TextAnimation text={"When I’m not immersed in code, you’ll find me indulging in my favorite movies and series. I’m a bit of a nerd when it comes to films and TV shows, always on the lookout for the next great story to experience."} />
+          <TextAnimation text={"Driven by a passion for technology and innovation, I am committed to delivering solutions that are both functional and aesthetically refined. My work reflects a dedication to precision, problem-solving, and staying ahead in the fast-evolving digital landscape."} />
         </p>
 
 
