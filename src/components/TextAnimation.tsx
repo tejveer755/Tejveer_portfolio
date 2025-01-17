@@ -7,9 +7,10 @@ gsap.registerPlugin(ScrollTrigger);
 
 interface TextAnimationProps {
   text: string; // Prop type for the text
+  className: string
 }
 
-const TextAnimation: React.FC<TextAnimationProps> = ({ text }) => {
+const TextAnimation: React.FC<TextAnimationProps> = ({ text, className }) => {
   const paragraphRef = useRef<HTMLParagraphElement | null>(null); // Ref to the paragraph
 
   useGSAP(() => {
@@ -51,7 +52,7 @@ const TextAnimation: React.FC<TextAnimationProps> = ({ text }) => {
     ));
 
   return (
-    <p ref={paragraphRef} className="text-xlleading-relaxed">
+    <p ref={paragraphRef} className={`${className}`}>
       {splitTextIntoWords(text)}
     </p>
   );

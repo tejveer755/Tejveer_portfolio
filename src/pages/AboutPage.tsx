@@ -13,14 +13,14 @@ import tenzies_1 from '../assets/tenzies.png'
 import stw from '../assets/stw.png'
 import weather_app from '../assets/weather_app.png'
 import cyberpunklp from '../assets/cyberpunk.png'
- 
+
 const AboutPage: React.FC = () => {
   const data = [
     {
       title: "December 2024",
       content: (
         <div>
-          <p className= "text-zinc-900 dark:text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-6">
+          <p className="text-zinc-900 dark:text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-6">
             Built and launched a Social Networking Website with NodeJS.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -49,11 +49,11 @@ const AboutPage: React.FC = () => {
       ),
     },
     {
-      title: "mid 2024",
+      title: "Mid 2024",
       content: (
         <div>
-          <p className= "text-zinc-900 dark:text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-4">
-          Build a interactive quiz game with multiple-choice questions and country Info Website. Built using React.js, JavaScript , API, and CSS.
+          <p className="text-zinc-900 dark:text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-4">
+            Build a interactive quiz game with multiple-choice questions and country Info Website. Built using React.js, JavaScript , API, and CSS.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             <img
@@ -81,10 +81,10 @@ const AboutPage: React.FC = () => {
       ),
     },
     {
-      title: "early 2024",
+      title: "Early 2024",
       content: (
         <div>
-          <p className= "text-zinc-900 dark:text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-4">
+          <p className="text-zinc-900 dark:text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-4">
             Build These projects that helped me to get better understanding of how things work in web development
           </p>
           <div className="mb-6">
@@ -127,7 +127,7 @@ const AboutPage: React.FC = () => {
     <div className="flex cursor-none pt-24 sm:pt-32 flex-col items-center justify-center w-full min-h-screen mx-auto  text-zinc-900 dark:text-white overflow-hidden relative">
       {/* Watermark Heading */}
       <h2
-        className="absolute -top-7 md:top-60 lg:-left-16  text-center m-0 text-nowrap md:-rotate-90 text-[5rem] sm:text-[7rem] font-bold  text-zinc-900 dark:text-neutral-100 opacity-60 select-none pointer-events-none z-0"
+        className="absolute -top-7 lg:top-60 lg:-left-16  text-center m-0 text-nowrap lg:-rotate-90 text-[5rem] sm:text-[7rem] font-bold  text-zinc-900 dark:text-neutral-100 opacity-60 select-none pointer-events-none z-0"
         style={{
           textShadow:
             "rgb(33 30 30 / 50%) -3px 7px 4px, rgb(147 141 141 / 30%) 0px 6px 0px",
@@ -140,16 +140,15 @@ const AboutPage: React.FC = () => {
         <div className="max-w-4xl gap-12 items-center relative">
           {/* Bio Section */}
           <div className="space-y-6">
-            <h3 className="text-2xl sm:text-3xl font-semibold mb-4  text-zinc-900 dark:text-white">
+            <h3 className="text-2xl sm:text-3xl font-semibold mb-4 sm:text-left text-center  text-zinc-900 dark:text-white">
               Who I Am
             </h3>
-            <p className="text-sm sm:text-base lg:text-xl  text-zinc-900 dark:text-gray-200 leading-relaxed">
-              <TextAnimation
-                text={
-                  "I am a 19-year-old web developer based in Delhi, India, with a strong foundation in creating modern, user-focused websites and applications. I am currently pursuing a Bachelor’s degree in Computer Applications at the Institute of Information Technology, where I am deepening my expertise in software development, programming, and emerging technologies."
-                }
-              />
-            </p>
+            <TextAnimation
+              className="text-sm sm:text-base lg:text-xl text-zinc-900 dark:text-gray-200 leading-relaxed sm:text-left text-center"
+              text={
+                "I am a 19-year-old web developer based in Delhi, India, with a strong foundation in creating modern, user-focused websites and applications. I am currently pursuing a Bachelor’s degree in Computer Applications at the Institute of Information Technology, where I am deepening my expertise in software development, programming, and emerging technologies."
+              }
+            />
           </div>
         </div>
       </div>
