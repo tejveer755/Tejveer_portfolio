@@ -1,14 +1,12 @@
 import React from "react";
 import TextAnimation from "../components/TextAnimation";
 import { Timeline } from "../components/ui/timeline";
-import swn_1 from '../assets/swn_1.png'
-import swn_2 from '../assets/swn_2.png'
-import swn_3 from '../assets/swn_3.png'
-import swn_4 from '../assets/swn_4.png'
+import swn_1 from '../assets/swn_1.png';
+import swn_2 from '../assets/swn_2.png';
+import chitchat from '../assets/chitchat.png'
+import chitchat2 from '../assets/chitchat2.png'
 import quiz_1 from '../assets/quiz_1.png'
-import quiz_2 from '../assets/quiz_2.png'
 import cinfo_1 from '../assets/cinfo_1.png'
-import cinfo_2 from '../assets/cinfo_2.png'
 import tenzies_1 from '../assets/tenzies.png'
 import stw from '../assets/stw.png'
 import weather_app from '../assets/weather_app.png'
@@ -17,13 +15,35 @@ import cyberpunklp from '../assets/cyberpunk.png'
 const AboutPage: React.FC = () => {
   const data = [
     {
+      title: "January 2025",
+      content: (
+        <div>
+          <p className="text-zinc-900 dark:text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-6">
+          an AI-powered chat application built with React Native & Expo and leveraging the Google Gemini API .
+          </p>
+          <div className="grid grid-cols-2 gap-4">
+            <img
+              src={chitchat}
+              alt="startup template"
+              className="rounded-lg object-cover h-20 sm:h-32 md:h-44 lg:h-60 w-full object-center shadow-lg"
+            />
+            <img
+              src={chitchat2}
+              alt="startup template"
+              className="rounded-lg object-cover h-20 sm:h-32 md:h-44 lg:h-60 w-full object-center shadow-lg"
+            />
+          </div>
+        </div>
+      ),
+    },
+    {
       title: "December 2024",
       content: (
         <div>
           <p className="text-zinc-900 dark:text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-6">
             Built and launched a Social Networking Website with NodeJS.
           </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 gap-4">
             <img
               src={swn_1}
               alt="startup template"
@@ -34,7 +54,7 @@ const AboutPage: React.FC = () => {
               alt="startup template"
               className="rounded-lg object-cover h-20 sm:h-32 md:h-44 lg:h-60 w-full object-center shadow-lg"
             />
-            <img
+            {/* <img
               src={swn_3}
               alt="startup template"
               className="rounded-lg object-cover h-20 sm:h-32 md:h-44 lg:h-60 w-full object-center shadow-lg"
@@ -43,7 +63,7 @@ const AboutPage: React.FC = () => {
               src={swn_4}
               alt="startup template"
               className="rounded-lg object-cover h-20 sm:h-32 md:h-44 lg:h-60 w-full object-center shadow-lg"
-            />
+            /> */}
           </div>
         </div>
       ),
@@ -55,27 +75,19 @@ const AboutPage: React.FC = () => {
           <p className="text-zinc-900 dark:text-neutral-200 text-xs sm:text-sm md:text-base font-normal mb-4">
             Build a interactive quiz game with multiple-choice questions and country Info Website. Built using React.js, JavaScript , API, and CSS.
           </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 gap-4">
             <img
               src={quiz_1}
               alt="hero template"
               className="rounded-lg object-cover h-20 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
             />
-            <img
-              src={quiz_2}
-              alt="feature template"
-              className="rounded-lg object-cover h-20 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
-            />
+            
             <img
               src={cinfo_1}
               alt="bento template"
               className="rounded-lg object-cover h-20 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
             />
-            <img
-              src={cinfo_2}
-              alt="bento template"
-              className="rounded-lg object-cover h-20 sm:h-32 md:h-44 lg:h-60 w-full shadow-lg"
-            />
+          
           </div>
         </div>
       ),

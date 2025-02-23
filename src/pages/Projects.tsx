@@ -1,6 +1,6 @@
 "use client";
 import { HeroParallax } from "../components/ui/hero-parallax";
-import swn_1 from '../assets/swn_1.png'
+import swn_1 from '../assets/chitchat.png'
 import swn_2 from '../assets/swn_2.png'
 import swn_3 from '../assets/swn_3.png'
 import swn_4 from '../assets/swn_4.png'
@@ -25,8 +25,8 @@ export const products = [
   },
 
   {
-    title: "Social Netwirking Website",
-    link: "https://social-networking-website-1.onrender.com/",
+    title: "ChatMate - AI Chat Application",
+    link: "https://github.com/tejveer755/AI-chat-app.git",
     thumbnail: swn_1,
   },
   {
